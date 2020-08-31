@@ -1,0 +1,85 @@
+body {
+    list-style-type: none;
+}
+.section-padding{
+    position: relative;
+
+}
+.section-bg{
+    background-image: url(../images/fruite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 59%;
+   
+    
+  
+}
+.section-bg::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #31d6be;
+    opacity: 0.7;
+}
+.appointment-text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.appointment-text h2{
+    font-size:32px;
+    font-weight: 700px;
+    color: white;
+    padding-bottom: 15px;
+}
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="date"]
+{
+       width: 100%;
+       margin-bottom: 10px;
+       padding-bottom: 10px;
+       border: none;
+       border: 1px solid white;
+       padding-top: 10px;
+
+}
+p textarea {
+    border: none;
+    border: 1px solid white;
+    width: 100%;
+}
+input[type="submit"]{
+    padding: 15px;
+    border: none;
+    border: 1px solid white;
+}
+.statements{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.statements h3{
+    padding-bottom: 30px;
+    margin-left: 35px;
+
+}
+.statements li{
+    padding-bottom: 20px;
+    list-style-type: none;
+
+}
+.staements ul li i{
+    color: #31d6be;
+}
+.statements button{
+    background: #31d6be;
+    border: none;
+    margin-top: 15px;
+    
+}
